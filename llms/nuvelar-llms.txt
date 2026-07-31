@@ -1,0 +1,18 @@
+# Nuvelar
+
+> Nuvelar is an Argentine technology solutions firm founded in 2014 that designs and builds digital experiences across consulting, hardware, software, and design. Its flagship product is Nuvelar Display, a cloud platform for creating, distributing, and managing digital-signage content networks, alongside custom interactive installations (videowalls, interactive tables, and branded experiential builds). Nuvelar does not currently publish a public API or developer portal.
+
+## About
+- [Nuvelar website](https://nuvelar.com): Company homepage — products, services, and portfolio.
+- [Customer login](https://www.nuvelar.com/public/login): Sign-in for the Nuvelar Display content-management platform.
+
+## Products
+- Nuvelar Display: Cloud-based digital-signage platform — content scheduling, player monitoring, dynamic templates, multi-format support, and social/weather/RSS integrations.
+- Custom development & consulting: Interactive displays, videowall installations, and bespoke software for experiential projects.
+
+## Contact
+- Email: contacto@nuvelar.com
+
+## Notes
+- No public API, OpenAPI/AsyncAPI specification, SDK, MCP server, or developer documentation was found as of 2026-07-20.
+- No /.well-known/ discovery documents, security.txt, or llms.txt are published on the primary domain.

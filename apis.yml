@@ -1,7 +1,29 @@
 aid: nuvelar
 name: Nuvelar
-description: Nuvelar is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nuvelar is an Argentine technology solutions firm founded in 2014 that designs
+  and builds digital experiences across consulting, hardware, software, and
+  design. Its flagship product, Nuvelar Display, is a cloud platform for
+  creating, distributing, and managing digital-signage content networks with
+  content scheduling, player monitoring, dynamic templates, multi-format
+  support, and social/weather/RSS integrations. Beyond the platform, Nuvelar
+  builds custom interactive installations — videowalls, interactive tables, and
+  branded experiential systems for clients such as Adidas. It was surfaced as a
+  500 Global portfolio company and added to the API Evangelist network. As of
+  the latest enrichment pass Nuvelar publishes no public API, developer portal,
+  SDK, or specification.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://nuvelar.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/nuvelar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Digital Signage
+- Digital Experience
+- Software Development
+- Consulting
+- Interactive Displays
+- Argentina
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nuvelar-domain-security.yml
 - type: Website
   url: https://nuvelar.com
+- type: Login
+  url: https://www.nuvelar.com/public/login
+- type: WellKnown
+  url: well-known/nuvelar-well-known.yml
+- type: LLMsTxt
+  url: llms/nuvelar-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
